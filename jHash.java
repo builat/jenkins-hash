@@ -82,7 +82,7 @@ void del(String stringKey){
 												jHash[jHashLine][0]=null;
 												jHash[jHashLine][1]=null;
 												jHash[jHashLine][2]=null;
-												break;
+												return;
                      						                              }
                                                 				}
 					}
