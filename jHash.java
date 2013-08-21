@@ -2,7 +2,6 @@ public class jHash{
 
 private String[][] jHash 	= new String[4][3];
 private JenkinsHash jenkinsHash = new JenkinsHash();
-//private int[] usedCell 		= new int[4];
 private int usedLimit = 0;
 
 void put(String stringKey, String stringVal){
@@ -70,7 +69,7 @@ String get(String stringKey){
 								if (longCheckKey==pc){	return (jHash[jHashLine][2]); 	   }
 							}
 						   }
-			return ("");
+			return;
 			}
 
 
@@ -79,8 +78,7 @@ void del(String stringKey){
 
         for (int jHashLine = 0; jHashLine < jHash.length-1; jHashLine++){
 	if ((jHash[jHashLine][0] != null) && (Integer.parseInt(jHash[jHashLine][0]) == pc)){
-//												System.out.println("StrKey-> " +stringKey);
-//												System.out.println("pcMod-> " +pc);
+
 												jHash[jHashLine][0]=null;
 												jHash[jHashLine][1]=null;
 												jHash[jHashLine][2]=null;
