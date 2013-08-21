@@ -13,7 +13,7 @@ void put(String stringKey, String stringVal){
 							checkKey = Integer.parseInt(jHash[usedLimit][0],10);
                                                         if (checkKey==pc){
 									   jHash[usedLimit][2] = stringVal;
-									//	usedLimit++;
+								
 						                           return;
                                                                   	 }
 							}
