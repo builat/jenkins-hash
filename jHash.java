@@ -69,7 +69,7 @@ String get(String stringKey){
 								if (longCheckKey==pc){	return (jHash[jHashLine][2]); 	   }
 							}
 						   }
-			return;
+			return null;
 			}
 
 
